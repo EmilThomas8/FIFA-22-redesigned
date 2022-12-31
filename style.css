@@ -1,0 +1,55 @@
+.container {
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.row {
+    padding-top: 50px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.award-winners {
+    padding: 20px;
+    color: gold;
+    text-decoration: underline;
+}
+
+.a {
+    padding: 20px;
+}
+.b {
+    height: 1500px;
+    width: 1500px;
+}
+
+.Khalifa-International-Stadium .Al-Thumama-Stadium .Ahmed-Bin-Ali-Stadium {
+    padding: 20px;
+}
+
+.dropdown-item:hover {
+    text-decoration: underline;
+}
+
+.more {
+    display: flex;
+    padding: 20px;
+}
